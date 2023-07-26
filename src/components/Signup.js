@@ -23,11 +23,11 @@ function Signup() {
           </div>
           <div>
             <label>Email:</label>
-            <input type="password" value={email} onChange={(e) => setPassword(e.target.value)} />
+            <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
           </div>
           <div>
             <label>Şifre:</label>
-            <input type="password" value={email} onChange={(e) => setEmail(e.target.value)} />
+            <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
           </div>
           <button type="submit">Kayıt Ol</button>
             </form>
